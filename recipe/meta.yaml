@@ -1,5 +1,5 @@
 {% set name = "python-hcl2" %}
-{% set version = "3.0.4" %}
+{% set version = "3.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-hcl2-{{ version }}.tar.gz
-  sha256: a300dbe2918271e6cd7ce4e7afa360eb2dbb226ee790b8e32a2a317586df8334
+  sha256: f8beff86346c6f42ccad75d6d2af4a33981802b6a000de881cc93b649f49ed1c
 
 build:
   number: 0

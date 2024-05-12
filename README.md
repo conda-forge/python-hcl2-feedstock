@@ -1,11 +1,11 @@
-About python-hcl2
-=================
+About python-hcl2-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-hcl2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/amplify-education/python-hcl2
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-hcl2-feedstock/blob/main/LICENSE.txt)
 
 Summary: A parser for HCL2
 

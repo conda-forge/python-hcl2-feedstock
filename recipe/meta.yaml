@@ -1,5 +1,5 @@
 {% set name = "python-hcl2" %}
-{% set version = "4.0.0" %}
+{% set version = "8.1.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/python-hcl2-{{ version }}.tar.gz
-  sha256: 0c79e2e4d14ec61110955ac1c6f504a2a5522e66e6dc598434e10c35e32d245d
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 9ced73150fffd0b3246c87aecdbba4baf00a1cac937ca20d34eefc7bbf9f374f
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
